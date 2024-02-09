@@ -57,7 +57,7 @@ message: ${content.value}`,
 
 //autosend
 
-const webhookUrl = 'https://discord.com/api/webhooks/1205389933133439026/3INtBZGVld9gpoGxgPyBaz2ueMgp4uAOF4W9zwEOJkYpeHH5Vtn93RQllGk2ovFcohvu';
+const webhookUrl = 'https://discord.com/api/webhooks/1205391289781321728/EXf6DwCxPKRRFHeGbX_YDliMSnc8lNTfVQ2T-auczZ5S4PFsMatNFtx8B0epnuvU_4bD';
 
 function sendToDis(webhookUrl) {
   window.addEventListener("load", (event) => {
