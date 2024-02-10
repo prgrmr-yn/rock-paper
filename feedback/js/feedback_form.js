@@ -44,7 +44,7 @@ message: ${content.value}`,
   })
    .then(function(res) {
     if (res.status.toString().startsWith('2')) {
-      message = 'Sent successfully'
+      message = 'Sent successfully, Thanks for your feedback'
     }else {
       message = 'Something went wrong, Please try again'
     }
@@ -55,9 +55,17 @@ message: ${content.value}`,
 }
 
 
+
 //autosend
 
-const webhookUrl = 'https://discord.com/api/webhooks/1205391289781321728/EXf6DwCxPKRRFHeGbX_YDliMSnc8lNTfVQ2T-auczZ5S4PFsMatNFtx8B0epnuvU_4bD';
+
+
+
+
+
+
+
+const webhookUrl = 'https://discord.com/api/webhooks/1205668139933896725/_IQxJq01jjir-g_65K_toUgfMugtV1APjU7VI07fb_Cfb8FjmKrZj_KJrtypARO7QphF';
 
 function sendToDis(webhookUrl) {
   window.addEventListener("load", (event) => {
