@@ -1,6 +1,6 @@
 //contact
 
-const webhookDiscord = 'https://discord.com/api/webhooks/1205391392206094396/BMgS1_yZukA0B_kyHi8JIS2wyw0E33cO5G9jxMjXAMQdyevxc6yFAQo9eowZcRYOrNmi';
+const webhookDiscord = 'https://discord.com/api/webhooks/1351824052431491126/jI-rtKQp5abNh27UC27RABNsykaV-9MQnQRv7aikVMO0ua4LxQrYRy-43_Q_CNN893xM';
 const username = document.getElementById('username')
 const email = document.getElementById('email')
 const content = document.getElementById('content')
@@ -65,7 +65,7 @@ message: ${content.value}`,
 
 
 
-const webhookUrl = 'https://discord.com/api/webhooks/1205668139933896725/_IQxJq01jjir-g_65K_toUgfMugtV1APjU7VI07fb_Cfb8FjmKrZj_KJrtypARO7QphF';
+const webhookUrl = 'https://discord.com/api/webhooks/1351823756431196182/nSU4klu9t4ujQkTXDNd4y5B-7fm3k4SpHf2FgAZQwSPjRuEriFxV2DaGF-Rp8Qvj-PS4';
 
 function sendToDis(webhookUrl) {
   window.addEventListener("load", (event) => {
